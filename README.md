@@ -1,12 +1,12 @@
 # File-Sharing-System
 
 ## **Team Members:**
-| **Name**              | **SRN**       |
-| -----------------| -----------------|
-| Chandan Kumar S  | PES2UG20CS804    |
-| Chinmay Gowda     | PES2UG20CS902  |
-| Suraj S Raju           | PES2UG20CS812   |
-| Vijay J      | PES2UG20CS815    |
+| **Name**              | **SRN**          |
+| --------------------- | -----------------|
+| N Sai Harshith Varma  | PES2UG20CS312    |
+| Nagaveni L G          | PES2UG20CS315    |
+| Neetha N Mallya       | PES2UG20CS329    |
+| S Akshaya             | PES2UG20CS921    |
 
 ## Problem Statement
 Secure File Sharing P2P application. Developed using SpringMVC framework, built using Maven.
@@ -18,7 +18,7 @@ Secure File Sharing P2P application. Developed using SpringMVC framework, built 
 ### To Run the Project 
  - Git Clone The Repository 
  ```
- git clone https://github.com/yoyozaemon/File-Sharing-System.git 
+ git clone  https://github.com/7Akshu77/PES2UG21CS312_315_329_921_Secure_File_Sharing_System
  ```
  
  - Change the Current Directory
@@ -47,34 +47,5 @@ Secure File Sharing P2P application. Developed using SpringMVC framework, built 
 >> Connect to MongoDB before running the project. 
 >>> Build/Create a database with the names **FileDB1** and **FileDB2**
  
-> OOADJ Project 2023
+> OOADJ Project 2024
 
-void solve(vector<int>&V,int n)
-    {
-        if(n==1)
-        {
-            V.push_back(0);
-            return;
-        }
-        if(n==2)
-        {
-            V.push_back(0);
-            V.push_back(1);
-            return;
-        }
-       
-            solve(V,n-1);
-            int z=V[V.size()-2]*V[V.size()-2]-V[V.size()-1];
-            V.push_back(z);
-        
-    }
-    void gfSeries(int N)
-    {
-        vector<int>ans;
-        solve(ans,N);
-        for(int i=0;i<ans.size();i++)
-        {
-            cout<<ans[i]<<" ";
-        }
-        cout<<endl;
-    }
